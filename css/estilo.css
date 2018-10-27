@@ -1,0 +1,114 @@
+body{
+    color: whitesmoke;
+}
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.justified{
+    text-align: justify;
+}
+.social{
+    position: fixed;
+    left: 0;
+    top:200px;
+    z-index: 2000;
+}
+.social ul{
+    list-style: none;
+}
+.social ul li a{
+    display: inline-block;
+    color: #fff;
+    background: #000;
+    padding: 10px 15px;
+    text-decoration: none;
+    -webkit-transition:all 500ms ease; 
+    -o-transition:all 500ms ease;
+    transition: all 500ms ease;
+}
+.social ul li a:hover{
+    padding: 10px 30px;
+    background: #000;
+}
+.social ul li .icon-facebook2{background: #3b5998;}
+.social ul li .icon-google2{background: #d95232;}
+.social ul li .icon-instagram1{background: #666666;}
+.social ul li .icon-twitter{background: #00abf0;}
+.social ul li .icon-youtube{background: #ae181f;}
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.row {
+    margin-right: -40px;
+    margin-left: 10px;
+}
+
+h4 {
+    margin-top: -200px;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+
+    font-size: 13px;
+    color: white;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 40px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
