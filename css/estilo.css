@@ -1,6 +1,22 @@
 body{
+    background:  #005883;
     color: whitesmoke;
+    font-family: 'Franklin Gothic Book';
 }
+
+h1{
+    color: #F47920;
+}
+h2{
+    color: #F47920;
+}
+h3{
+    color: #F47920;
+}
+h4{
+    color: #F47920;
+}
+
 *{
     margin: 0;
     padding: 0;
