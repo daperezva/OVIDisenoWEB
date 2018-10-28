@@ -1,5 +1,7 @@
 body{
+    background:  #005883;
     color: whitesmoke;
+    font-family: 'Franklin Gothic Book';
 }
 *{
     margin: 0;
